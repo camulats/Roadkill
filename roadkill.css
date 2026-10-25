@@ -1,82 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
-
-*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row),
-*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row)::before,
-*:not([class*="fa-"], [class*="glyphicon"], .fa, .fas, .far, .fab, .combo-select-row)::after {
-    font-family: 'Google Sans Flex', sans-serif !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {font-family: Special Elite;}
+.topbar {font-family: Special Elite;}
+.navbar {font-family: Special Elite;}
 
 body {
-	background: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalForest_WetNight.png') center center fixed;
+	background: url('https://i.pinimg.com/1200x/82/c3/05/82c305e0bb11cec6752c78b36caac61f.jpg') center center fixed;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover !important;
-	font-family: 'Google Sans Flex', sans-serif;
-	color: #A4BFAE;
+	font-family: 'Special Elite', sans-serif;
+	color: #F2B324;
 }
 
 body * {
-	color: #A4BFAE;
+	color: #F2B324;
 }
 
 ::-webkit-scrollbar {
-width: 7px;
+width: 15px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #A4BFAE;}
+background: #3F1205;}
 ::-webkit-scrollbar-thumb {
-background: #A4BFAE; } 
+background: #0B0C11; } 
 
 h1 {
-	color: #A4BFAE;
+	color: #F2B324;
 	font-size: 30px;
 	text-align: center;
-          font-family: 'Google Sans Flex', sans-serif;
+          font-family: 'Special elite', sans-serif;
 }
 h3 {
-color: #A4BFAE !important;
+color: #F2B324 !important;
 font-size: 18px;}
     
 
 a:link,
 a:visited {
-color: #65899c !important;
+color: #9D1521 !important;
 background: none !important; }
    
 a:hover {
-color: #446575!important; }
+color: #73141c!important; }
 
 .container.main {
-background: rgba(20, 47, 64, 1);
+background: rgba(32, 36, 65, 0.5);
 border: none;
 box-shadow: none;
 border-radius: 5px; }
 .col-md-9 {
 background: none; } 
     
-    
 .topbar {
-	background: #0A1E26;
+	background: #202441;
 	border: none;
 	border-top: none;
-	color: #A4BFAE;
+	color: #9D1521;
 }
 .navbar {
-	background: #0A1E26 ;
+	background: #202441 ;
 	border-bottom: none;
-	color:#A4BFAE;
+	color:#9D1521;
 	border-radius: 0px
 }
 .navbar li a {
-	color: #A4BFAE !important
+	color: #9D1521 !important
 }
 .navbar li a:hover {
-background: #3C6973 !important;
-color: #0A1E26 !important; }
+background: #16192b !important;
+color: #73141c !important; }
      
 .navbar-toggle {
 border: none !important;
-background: #142F40 !important;
+background: #16192b !important;
 }
 
 .navbar-collapse {
@@ -85,28 +81,31 @@ border-top: none !important;
 }
 
     .breadcrumb {
-	background: #0A1E26 !important;
+	background: #202441 !important;
         border: none;
 	border-radius: 0px
 }
 .breadcrumb .active {
-	color: #A4BFAE
+	color: #9D1521
 }
 .alert-warning {
-background: #96737C !important;
-color: #ebd8da !important;}
+background: #590F0F !important;
+     border: none;
+color: #9D1521 !important;}
 .alert-danger {
-background: #6d7355 !important;
-color: #E8EBE0 !important;}
+background: #590F0F !important;
+    border: none;
+color: #9D1521 !important;}
 .alert-success {
-background: #6d7355 !important;
-color: #E8EBE0 !important;}
+background: #590F0F !important;
+     border: none;
+color: #9D1521 !important;}
 
 div#commentBox {
-background: #19414f !important;
+background: #202441 !important;
 border: none !important;
 border-radius: 0px !important;
-color: #A4BFAE !important;}
+color: #9D1521 !important;}
 
 input.bad {
 background: #HEX !important;
@@ -120,41 +119,41 @@ table#player.table div.xlarge {
 margin-top: 10px !important; }
 
 .text-muted { 
-color: #A4BFAE !important; }  
+color: #9D1521 !important; }  
     
 .panel {
-background: #1b4057 !important;
-color: #A4BFAE !important;
+background: #202441 !important;
+color: #9D1521 !important;
 border: none !important;
 border-radius: 10px !important;
 box-shadow: none !important;  }
 
 .progress-bar {
-background: #A4BFAE !important; 
+background: #590F0F !important; 
 border-radius: 0px !important; }
 
 .progress-bar-warning { 
-background: #558161 !important;
+background: #F29A2E !important;
 color: #000 !important;}
 .progress-bar-danger { 
-background: #517E68 !important;
+background: #D93D04 !important;
 color: #000 !important;}
 .progress-bar-success { 
-background: #466960 !important;
+background: #A60303 !important;
 color: #000 !important;}
 
 div#commentBox {
-background: #19414f !important;
+background: #202441 !important;
 border: none !important;
 border-radius: 0px !important;
-color: #A4BFAE !important;}
+color: #9D1521 !important;}
 
 #comment {
-    color: #87a5b0 !important;
+    color: #9D1521 !important;
 }
 
 #comment::placeholder {
-    color: #87a5b0 !important;
+    color: #202441 !important;
 }
 
 .progress div {
@@ -165,44 +164,44 @@ border-radius: 0px !important;  }
 
 button#label_currentChannel {
 border: none !important;
-background: #3C6973 !important; }
+background: #202441 !important; }
 
 div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #7ABF92 !important; }
+color: #9D1521 !important; }
     
     
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #3C6973 !important;
-color: #A4BFAE !important;	
+    background: 202441 !important;
+color: #9D1521 !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
 .s-chat-message__pinned {
-background-color: #3C6973 !important;
-color: #A4BFAE !important;
+background-color: #202441 !important;
+color: #9D1521 !important;
 border: none !important; }
 
 .s-chat-message {
-background: #3C6973 !important;
-color: #A4BFAE !important;
+background: #202441 !important;
+color: #9D1521 !important;
 border-bottom: 1px solid #19414f !important; }
 
 .s-chat-message:nth-child(even) {
-background: #3C6973 !important;
+background: #202441 !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
 background: #3C6973 !important;
 border: none !important; }
 
 .feature {
-background: #142F40 !important;
-color: #A4BFAE !important;
-border: 3px double #3C6973 !important;
+background: #202441 !important;
+color: #9D1521 !important;
+border: 0px double !important;
 border-radius: 0px !important;  }
 
 div.left {
@@ -218,15 +217,15 @@ font-size: 14px !important; }
     color: #00000080;
 }
 .table {
-background: rgba(67, 115, 115, 0.2) ;
+background: rgba(32, 36, 65, 0.5) ;
 border: none !important;
 border-collapse: separate;
 border-radius: 0px; }
 
 
 .top, .bottom, th {
-background: #1b4057 !important;
-color: #A4BFAE !important;
+background: #202441 !important;
+color: #9D1521 !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -234,17 +233,17 @@ border-radius: 0px !important; }
 text-decoration: none !important;}
 
 .table .left {
-background: #1b4057;
+background: #202441;
 border-radius: 0px !important; }
 
 .inner-table .left {
-background: #142F40 !important;
+background: 202441 !important;
 border-radius: 0px !important;  }
 
 .inner-table .right {
-background: #386273 !important;
+background: #2c304f !important;
 border-radius: 0px !important; 
-color: #A4BFAE !important; } 
+color: #9D1521 !important; } 
 
 .right_odd {
 background: none !important; }  
@@ -257,48 +256,44 @@ table#player img {
 opacity: 1.0;
 border-radius: 0%; }
 
+
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('https://i.postimg.cc/RF77vJWc/IMG-0439.png'); }
+content: url('https://i.ibb.co/gL9qq8WT/image-2026-10-25-134506642.png');}
 
 input, textarea, select, button.button,
 a.btn.btn-default.button {
-background: #386273 !important;
+background: #202441 !important;
 border: none !important;
 border-radius: 0px !important;
-color: #A4BFAE !important;
+color: #9D1521 !important;
 text-shadow: none !important; }
 
 .cave-grid,
 .mound-grid {
-background: #386273 !important;
-color: #A4BFAE !important;
+background: #202441 !important;
+color: #9D1521 !important;
 border: none !important;
 border-radius: 0px !important; }
 
 div.cave-grid>img {
-content: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalForest_Night.png')!important;
+content: url('https://i.pinimg.com/736x/3b/f2/99/3bf299b8010856cd98f45269b2ca72ca.jpg')!important;
 width: 240px;
 height: 120px; }
 
 .dynastylist .left {
-    background-color: #2B4F5F !important;
+    background-color: #202441 !important;
 }
 .dynastylist .left h3,
 .dynastylist .left a {
-    color: #446875 !important;
+    color: #9D1521 !important;
 }
 
-/* Oxygen Blue Curve - https://www.cursors-4u.com/cursor/oxygen-blue-curve-12 */
-* {
-  cursor: url('https://cdn.cursors-4u.net/previews/oxygen-blue-curve-c85fd560-32.webp') 32 32, auto !important;
-}
-/* End www.Cursors-4U.com Code */
 
 .breadcrumb::after {
-content: "CSS by Cam #583285";
-color: #A4BFAE;
+content: "Template by katie #106445 CSS by Cam #583285";
+color: #F2B324;
 position: absolute;
 right: 13%;
 z-index: 100; }
